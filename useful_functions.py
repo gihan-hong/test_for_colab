@@ -6,7 +6,7 @@ def mean(num_list):
 def add_five(num_list):
     return [n + 5 for n in num_list]
 
-def test():
+def main():
     print("Testing mean function")
     n_list = [34, 44, 23, 46, 12, 24]
     correct_mean = 30.5
