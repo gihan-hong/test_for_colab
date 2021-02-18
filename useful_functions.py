@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# 프린트 서브펑션
-
-# In[ ]:
-
-
 # useful_functions.py
 
 def mean(num_list):
@@ -25,7 +17,3 @@ def main():
     assert(add_five(n_list) == correct_list)
 
     print("All tests passed!")
-
-if __name__ == '__main__':
-    main()
-
